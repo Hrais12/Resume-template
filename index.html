@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="resumeContainer">
+        <!-- <div class="SocialMedia"><img src="" alt=""></div> -->
+          <aside class="leftSide">
+             <div class="profileText"> 
+                <div class="profilePic"><img src="data:image/jpeg;base64,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" alt="" class="profilePic"></div>
+                <div class="Name"><h2>Sarah Johnson<br><span>Marketing Manager</span> </h2></div>
+             </div><hr>
+            <div class="ContactInfo"><h3 class="title">Contact Info</h3>
+                <!-- <div class="Details">
+                    <p><strong>Address</strong><br>
+                    123 main street<br>
+                    New York, NY 11005<br>
+                    United States</p>
+                </div> -->
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">+1 (201) 456 8765</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">Sarah_Johnson@email.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                        <span class="text">www.mywebsite.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i></span>
+                        <span class="text">www.linkedin.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">123 Main Street
+                            New York, NY 11005</span>
+                    </li>
+
+                </ul>
+                </div>
+               
+                <div class="Language">
+                    <h3 class="title">Languages</h3>
+                    <ul>
+                        <li>
+                            <span class="text">English</span>
+                            <span class="percent">
+                                <div class="percentageE"></div>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="text">Spanish</span>
+                            <span class="percent">
+                                <div class="percentageS"></div></span>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <div class="Skills">
+                    <h3 class="title">Skills</h3>
+                    <ul>
+                        <li>
+                            <span class="Square"></span>
+                            <span class="text">Project Management Skills</span>
+                            
+                        </li>
+                        <li>
+                            <span class="Square"></span>
+                            <span class="text">Busines Development Strategies</span>
+                            
+                        </li>
+                        <li>
+                            <span class="Square"></span>
+                            <span class="text">Interpersonal Comminication Skills</span>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+
+            
+          </aside>
+
+          
+          <main class="rightSide">
+            
+            <div class="About"><h2 class="Title2">Profile</h2><hr>
+                <p>Dynamic and results-oriented marketing professional with a proven track record of developing and implementing successful marketing strategies. Seeking to leverage my skills and experience to contribute to the growth and success of a forward-thinking company.</p> 
+
+          </div>
+          <div class="About"><h2 class="Title2">Experience</h2><hr>
+           <div class="box">
+            <div class="year_company">
+                <h5>2019 - Present</h5>
+                <h5>Company Name</h5>
+
+            </div>
+            <div class="text">
+                <h4>Marketing Manager</h4>
+                <ul>
+                    <li>Developed comprehensive marketing strategies to increase brand awareness and drive sales.</li>
+                    <li>Managed digital marketing campaigns across various platforms including social media, email, and PPC advertising.</li>
+                    <li>Conducted market research and analysis to identify target audiences and optimize marketing efforts.</li>
+                    <li>Oversaw the creation of marketing materials such as brochures, advertisements, and promotional videos.</li>
+                </ul>
+            </div>
+           </div>
+           <div class="box">
+            <div class="year_company">
+                <h5>Nov 2010 - Sep 2019</h5>
+                <h5>Company Name</h5>
+
+            </div>
+              <div class="text">
+                <h4>Marketing Coordinator</h4>
+                <ul>
+                    <li>Assisted in the development and execution of marketing plans and campaigns.</li>
+                    <li>Coordinated logistics for events and trade shows, including booth setup, staffing, and promotional materials.</li>
+                    <li>Managed social media accounts and created engaging content to increase follower engagement and brand visibility.</li>
+                    <li>Conducted competitive analysis to identify market trends and opportunities.</li>
+                    <li>Prepared regular reports on marketing campaign performance and made recommendations for improvement
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="About"><h2 class="Title2">Education</h2><hr>
+            <div class="box">
+             <div class="year_company">
+                <h5>2006 - 2010</h5></div>
+                
+                <div class="text">
+                    <h4>Bachelor Of Marketing , Colorado College</h4>
+                </div>
+
+
+
+          
+                  
+             </div>
+
+          </div>
+        </main>
+      
+        
+        <script src="" async defer></script>
+    </body>
+</html>
